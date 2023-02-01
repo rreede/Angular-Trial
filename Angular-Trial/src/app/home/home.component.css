@@ -1,0 +1,47 @@
+h1 {
+  color: #2997ff;
+}
+
+.wrapper {
+  width: 620px;
+  margin: 50px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  margin-top: 25px;
+}
+
+td {
+  padding: 10px 0px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1em;
+  color: rgb(33, 33, 33);
+  transition: color 0.2s ease;
+  transition: font-size 0.2s ease;
+}
+
+table a:hover {
+  color: #2997ff;
+  font-size: 1.2em;
+}
+
+.leia-kasutaja {
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 10px;
+}
+
+input[type="text"]:focus {
+  border: 3px solid #2997ff;
+  outline: none;
+}

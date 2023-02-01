@@ -1,0 +1,50 @@
+h1 {
+  color: #2997ff;
+}
+
+.wrapper {
+  width: 620px;
+  margin: 50px auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  margin-top: 25px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 25px;
+}
+
+th,
+td {
+  border: 1px solid lightgray;
+  padding: 10px 25px;
+}
+
+td {
+  text-align: left;
+}
+
+.kasutaja-info {
+  margin-top: 50px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+input [type="text"] {
+  width: 100%;
+}

@@ -1,0 +1,82 @@
+<div class="wrapper">
+  <nav>
+    <h1>{{ user.name }}</h1>
+    <a [routerLink]="''">Pealeht</a>
+  </nav>
+  <section class="kasutaja-info">
+    <table>
+      <tr>
+        <td><strong>ID:</strong></td>
+        <td>{{ user.id }}</td>
+      </tr>
+      <tr>
+        <td><strong>Nimi:</strong></td>
+        <td>{{ user.name }}</td>
+      </tr>
+      <tr>
+        <td><strong>Kasutajanimi:</strong></td>
+        <td>{{ user.username }}</td>
+      </tr>
+      <tr>
+        <td><strong>E-mail:</strong></td>
+        <td>{{ user.email }}</td>
+      </tr>
+      <tr>
+        <td><strong>Tänav:</strong></td>
+        <td>{{ user.address.street }}</td>
+      </tr>
+      <tr>
+        <td><strong>Suite:</strong></td>
+        <td>{{ user.address.suite }}</td>
+      </tr>
+
+      <tr>
+        <td><strong>Linn:</strong></td>
+        <td>{{ user.address.city }}</td>
+      </tr>
+
+      <tr>
+        <td><strong>Sihtnumber:</strong></td>
+        <td>{{ user.address.zipcode }}</td>
+      </tr>
+      <tr>
+        <td><strong>Lat:</strong></td>
+        <td>{{ user.address.geo.lat }}</td>
+      </tr>
+      <tr>
+        <td><strong>Lng:</strong></td>
+        <td>{{ user.address.geo.lng }}</td>
+      </tr>
+      <tr>
+        <td><strong>Telefoni number:</strong></td>
+        <td>{{ user.phone }}</td>
+      </tr>
+      <tr>
+        <td><strong>Veebileht:</strong></td>
+        <td>{{ user.website }}</td>
+      </tr>
+      <tr>
+        <td><strong>Ettevõtte nimi:</strong></td>
+        <td>{{ user.company.name }}</td>
+      </tr>
+      <tr>
+        <td><strong>Ettevõtte tunnuslause:</strong></td>
+        <td>{{ user.company.catchPhrase }}</td>
+      </tr>
+      <tr>
+        <td><strong>Missiooni kirjeldus:</strong></td>
+        <td>{{ user.company.bs }}</td>
+      </tr>
+    </table>
+
+    <div class="kasutaja-edit">
+      <a [routerLink]="['']">
+        <button class="muuda-kasutaja">Muuda Kasutajat</button>
+      </a>
+
+      <a [routerLink]="['']">
+        <button class="kustuta-kasutaja">Kustuta Kasutaja</button>
+      </a>
+    </div>
+  </section>
+</div>

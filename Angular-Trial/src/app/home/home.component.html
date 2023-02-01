@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <nav>
+    <h1>Kasutajate nimekiri</h1>
+    <input
+      class="leia-kasutaja"
+      type="text"
+      name="name"
+      placeholder="Sisesta kasutaja"
+      [(ngModel)]="filterTerm"
+    />
+  </nav>
+  <table>
+    <tbody>
+      <tr *ngFor="let user of userRecords | filter : filterTerm">
+        <td>
+          <a [routerLink]="['/user-details', user.id]">{{ user.name }} </a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a [routerLink]="['/add-new-user']">
+    <button class="uus-kasutaja">Lisa Kasutaja</button>
+  </a>
+</div>

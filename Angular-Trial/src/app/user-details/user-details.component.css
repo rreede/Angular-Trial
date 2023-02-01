@@ -1,0 +1,57 @@
+h1 {
+  color: #2997ff;
+}
+
+.wrapper {
+  width: 620px;
+  margin: 50px auto 0px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+table {
+  margin-top: 25px;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 25px;
+}
+
+th,
+td {
+  border: 1px solid lightgray;
+  padding: 10px 25px;
+}
+
+a:visited {
+  color: rgb(43, 43, 43);
+}
+
+td {
+  text-align: left;
+}
+
+.kasutaja-info {
+  margin-top: 50px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+.kasutaja-info p {
+  margin-top: 25px;
+}
+
+.kasutaja-edit {
+    margin-bottom:50px;
+  display: flex;
+  justify-content: space-between;
+}
+
