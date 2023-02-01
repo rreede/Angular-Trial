@@ -40,8 +40,3 @@ table a:hover {
   border: 1px solid lightgray;
   padding: 10px;
 }
-
-input[type="text"]:focus {
-  border: 3px solid #2997ff;
-  outline: none;
-}
